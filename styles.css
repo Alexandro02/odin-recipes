@@ -1,0 +1,42 @@
+/*
+(#F0F8FF) – The main color, a very light and soft blue.
+
+(#B0C4DE) – A slightly darker and more muted blue.
+
+(#B0E0E6) – A pale blue with a touch of green.
+
+(#E6E6FA) – A soft, light lavender to complement the cool tones.
+
+(#FFE4E1) – A soft, warm pinkish tone to balance the palette.
+
+(#87CEEB) – A vibrant, yet soft blue that pairs well with Alice Blue.
+
+(#708090) – A subtle, dark gray that provides contrast without overwhelming.
+*/
+
+body {
+  background-color: #708090;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.recipes-list {
+  list-style: none;
+  width: 80%;
+}
+
+.recipes-list > li > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #E6E6FA;
+  transition: 80ms ease-in;
+}
+
+.recipes-list > li > a:hover {
+ color: #b0c4de;
+}
