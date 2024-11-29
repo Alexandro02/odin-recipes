@@ -4,6 +4,10 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+h2 {
+  color: #87CEEB;
+}
+
 .main-title {
   text-align: center;
   font-size: 5rem;
@@ -22,6 +26,7 @@ body {
   width: fit-content;
   height: auto;
   margin-bottom: 2rem;
+  border-radius: 10px;
 }
 
 .showcase {
