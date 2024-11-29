@@ -32,6 +32,7 @@ body {
 .ing-header,
 .instr-header {
   font-size: 2rem;
+  color: #87CEEB;
 }
 
 .ingredients,
@@ -43,7 +44,9 @@ body {
   list-style: square;
 }
 
-.ingredients.step {
-  font-size: 2rem;
+.instructions > .step {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #FFE4E1;
 }
 
