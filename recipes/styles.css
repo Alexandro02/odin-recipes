@@ -23,7 +23,7 @@ h2 {
 }
 
 .img-container > img {
-  width: fit-content;
+  width: 675px;
   height: auto;
   margin-bottom: 2rem;
   border-radius: 10px;
@@ -38,6 +38,10 @@ h2 {
 .instr-header {
   font-size: 2rem;
   color: #87CEEB;
+}
+
+.instr-header.text {
+  font-size: 1.2rem;
 }
 
 .ingredients,
